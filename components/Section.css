@@ -38,3 +38,14 @@
 .Section .box {
 	padding: 15px;
 }
+
+@media (max-width: 600px) {
+	.Section {
+		flex-direction: column;
+	}
+	.Section__half2 {
+		border: solid;
+		border-left: solid;
+		border-top: transparent;
+	}
+}
